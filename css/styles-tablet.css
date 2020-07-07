@@ -1,2 +1,5 @@
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 600px) {
+  .main {
+    padding: 128px 64px;
+  }
 }
