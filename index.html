@@ -3,10 +3,80 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    <link href="css/styles-tablet.css" rel="stylesheet" type="text/css" />
+    <link href="css/styles-desktop.css" rel="stylesheet" type="text/css" />
     <title>Gurleen Sethi</title>
   </head>
   <body>
-    <h1>Gurleen Sethi</h1>
-    <p>Glad to have you here. Come back later for more content...</p>
+    <div id="main" class="main">
+      <h1 class="title">Gurleen Sethi</h1>
+      <p class="description">
+        I am a software engineer currently pursing Masters in Software
+        Engineering and have over 2 years of experince developing mobile and web
+        applications.
+      </p>
+      <ul class="socials">
+        <li>Github</li>
+        <li>LinkedIn</li>
+        <li>Medium</li>
+      </ul>
+      <button class="btn">Contact Me</button>
+    </div>
+    <div class="portfolio">
+      <div class="portfolio-item" id="education">
+        <div>Concordia University</div>
+        <div>Japyee Institute of Information Technology</div>
+      </div>
+      <div class="portfolio-item" id="experience">
+        <div>Koverhoop Technologies</div>
+        <div>Nobbas</div>
+        <div>Ted Consulting</div>
+      </div>
+      <div class="portfolio-item" id="Skills">
+        <div>Javascript</div>
+        <div>React</div>
+        <div>Node.js</div>
+        <div>Flutter</div>
+        <div>Dart</div>
+        <div>SQL</div>
+        <div>Java</div>
+        <div>HTML/CSS</div>
+      </div>
+      <div class="portfolio-item" id="Projects">
+        <div>Nobbas mobile application</div>
+        <div>Notification Microservice</div>
+        <div>Battleship Game</div>
+        <div>Captive Portal X</div>
+        <div>VAttendance</div>
+      </div>
+      <div class="protfolio-item" id="certifications">
+        <div>Data Structure and Algorithms Nanodegree | Udacity</div>
+        <div>React Developer Nanodegree | Udacity</div>
+        <div>Android Developer Nanodegree | Udacity</div>
+      </div>
+    </div>
+    <div id="contact">
+      <h3>Send me an email</h3>
+      <p>contactgurleensethi@gmail.com</p>
+      <h3>Give me a call</h3>
+      <p>+1 (514)560-3230</p>
+      <h1>Let's get in touch!</h1>
+      <form id="contact-form">
+        <label>
+          Name
+          <input type="text" placeholder="Name" />
+        </label>
+        <label>
+          Email
+          <input type="email" placeholder="Email" />
+        </label>
+        <label>
+          Message
+          <textarea placeholder="Message"></textarea>
+        </label>
+        <button class="btn">Send</button>
+      </form>
+    </div>
   </body>
 </html>
