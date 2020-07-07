@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --text-color-primary: #4a4a4a;
+  --accent-color-primary: #3898ec;
+  --accent-color-secondary: #3b80fe;
+  --color-red: #f44336;
+  --color-red-secondary: #d32f2f;
+  --color-blue: #2196f3;
+  --color-blue-secondary: #1976d2;
+  --color-deep-purple: #673ab7;
+  --color-deep-purple-secondary: #512da8;
+  --color-teal: #009688;
+  --color-teal-secondary: #00796b;
+  --color-green: #4caf50;
+  --color-green-secondary: #388e3c;
+  --color-orange: #ff9800;
+  --color-orange-secondary: #f57c00;
+  --color-brown: #795548;
+  --color-brown-secondary: #5d4037;
+  --color-yellow: #ffeb3b;
+  --color-yellow-secondary: #fbc02d;
+  --color-cyan: #00bcd4;
+  --color-cyan-secondary: #0097a7;
+  --color-indigo: #3f51b5;
+  --color-indigo-secondary: #303f9f;
+}
+
+html,
+body {
+  margin: 0;
+  font-family: "Noto Sans JP", sans-serif;
+  color: var(--text-color-primary);
+}
+
+.btn {
+  border: none;
+  background: none;
+  background-color: var(--accent-color-primary);
+  color: white;
+  font-weight: lighter;
+  border-radius: 32px;
+  font-size: 16px;
+  padding: 16px 64px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: var(--accent-color-secondary);
+}

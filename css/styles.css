@@ -1,21 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&display=swap");
-
-* {
-  box-sizing: border-box;
-}
-
-:root {
-  --primary-text-color: #4a4a4a;
-}
-
-html,
-body {
-  font-family: "Noto Sans JP", sans-serif;
-  color: var(--primary-text-color);
+.container {
+  display: flex;
+  flex-direction: column;
 }
 
 .main {
-  padding: 32px;
+  padding: 64px 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .main .title {
@@ -27,5 +19,78 @@ body {
 }
 
 .main .description {
-  font-weight: 300;
+  font-weight: lighter;
+  margin-bottom: 48px;
+}
+
+.main .socials {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 48px;
+}
+
+.main .socials li {
+  display: inline-block;
+}
+
+.portfolio {
+}
+
+.portfolio-item {
+  color: white;
+  background-color: #005ba9;
+  padding: 64px 32px;
+  font-weight: lighter;
+}
+
+#education {
+  background: linear-gradient(
+    -135deg,
+    var(--color-orange),
+    var(--color-orange-secondary)
+  );
+}
+
+#experience {
+  background: linear-gradient(
+    -135deg,
+    var(--color-blue),
+    var(--color-blue-secondary)
+  );
+}
+
+#skills {
+  background: linear-gradient(
+    -135deg,
+    var(--color-teal),
+    var(--color-teal-secondary)
+  );
+}
+
+#projects {
+  background: linear-gradient(
+    -135deg,
+    var(--color-deep-purple),
+    var(--color-deep-purple)
+  );
+}
+
+#certifications {
+  background: linear-gradient(
+    -135deg,
+    var(--color-brown),
+    var(--color-brown-secondary)
+  );
+}
+
+#contact {
+  padding: 64px 32px;
+  color: white;
+  background: linear-gradient(
+    -135deg,
+    var(--color-indigo),
+    var(--color-indigo-secondary)
+  );
 }
