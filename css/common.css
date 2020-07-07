@@ -54,3 +54,15 @@ body {
   cursor: pointer;
   background-color: var(--accent-color-secondary);
 }
+
+@keyframes fadeslidein {
+  from {
+    left: -40px;
+    opacity: 0;
+  }
+
+  to {
+    left: 0;
+    opacity: 1;
+  }
+}
