@@ -17,13 +17,14 @@
   padding: 0;
   margin: 0;
   font-weight: 700;
-  font-size: 28px;
+  font-size: 40px;
 }
 
 .main .description {
   font-weight: lighter;
   margin-bottom: 48px;
   max-width: 350px;
+  font-size: 20px;
 }
 
 .main .socials {
@@ -46,6 +47,7 @@
   background-color: #005ba9;
   padding: 64px 32px;
   font-weight: lighter;
+  font-size: 24px;
 }
 
 #education {
