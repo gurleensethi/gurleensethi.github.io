@@ -2,4 +2,8 @@
   .main {
     padding: 128px 64px;
   }
+
+  .portfolio-item {
+    padding: 64px 40px;
+  }
 }

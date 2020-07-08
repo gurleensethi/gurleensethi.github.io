@@ -14,4 +14,8 @@
     flex: 2;
     overflow-y: auto;
   }
+
+  .portfolio-item {
+    padding: 64px 40px;
+  }
 }

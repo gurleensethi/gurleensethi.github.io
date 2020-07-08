@@ -5,6 +5,29 @@
   width: 100%;
 }
 
+.view-details-btn {
+  font-size: 14px;
+  display: flex;
+  justify-content: flex-end;
+  font-weight: normal;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.view-details-btn:hover {
+  cursor: pointer;
+}
+
+.view-details-btn .icon {
+  transition: 0.3s;
+  height: 20px;
+  margin-left: 8px;
+}
+
+.view-details-btn:hover .icon {
+  margin-left: 16px;
+}
+
 .main {
   padding: 64px 32px;
   display: flex;
@@ -61,8 +84,16 @@
   color: white;
   background-color: #005ba9;
   padding: 64px 32px;
-  font-weight: lighter;
+  font-weight: normal;
   font-size: 24px;
+}
+
+.portfolio-item-title {
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 16px;
+  font-weight: normal;
 }
 
 .portfolio-item > * {
@@ -76,6 +107,21 @@
     var(--color-orange),
     var(--color-orange-secondary)
   );
+}
+
+.education-list-item .name {
+  margin-bottom: 4px;
+  font-size: 28px;
+}
+
+.education-list-item .course {
+  margin-bottom: 8px;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.education-list-item:not(:last-of-type) {
+  margin-bottom: 32px;
 }
 
 #experience {
@@ -92,6 +138,9 @@
     var(--color-teal),
     var(--color-teal-secondary)
   );
+}
+
+.skills-list {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
