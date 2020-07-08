@@ -99,7 +99,7 @@
 }
 
 .skills-item {
-  min-width: 140px;
+  min-width: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
