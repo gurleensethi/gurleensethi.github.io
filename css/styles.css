@@ -92,6 +92,31 @@
     var(--color-teal),
     var(--color-teal-secondary)
   );
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.skills-item {
+  min-width: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  transition: 0.3s;
+  animation: zoominout 3s 1s alternate-reverse both infinite;
+}
+
+.skills-item:hover {
+}
+
+.skills-item .logo {
+  height: 48px;
+  margin-bottom: 16px;
+}
+
+.skills-item .name {
 }
 
 #projects {

@@ -66,3 +66,13 @@ body {
     opacity: 1;
   }
 }
+
+@keyframes zoominout {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(0.9);
+  }
+}
