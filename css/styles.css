@@ -56,7 +56,7 @@
   position: relative;
 }
 
-.main .socials {
+.socials {
   list-style-type: none;
   display: flex;
   padding: 0;
@@ -67,8 +67,49 @@
   position: relative;
 }
 
-.main .socials li {
+.socials li {
   display: inline-block;
+}
+
+.socials .social-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  filter: grayscale(1);
+  opacity: 0.7;
+  transition: 0.3s;
+  padding: 24px;
+}
+
+.socials .social-item:hover {
+  cursor: pointer;
+  filter: grayscale(0);
+  opacity: 1;
+}
+
+.socials .social-item .icon {
+  height: 24px;
+  margin-bottom: 4px;
+}
+
+.socials .social-item .name {
+  position: absolute;
+  top: 56px;
+  transition: 0.3s;
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
+  background-color: white;
+}
+
+.social-item:hover .name,
+.social-item .name:hover {
+  top: -8px;
+  background-color: black;
+  border-radius: 12px;
+  color: white;
+  padding: 2px 8px;
 }
 
 #contact-me-btn {
