@@ -185,7 +185,7 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .skills-item {
@@ -195,7 +195,6 @@
   align-items: center;
   margin: 20px;
   transition: 0.3s;
-  animation: zoominout 3s 1s alternate-reverse both infinite;
 }
 
 .skills-item:hover {
@@ -207,13 +206,15 @@
 }
 
 .skills-item .name {
+  font-weight: lighter;
+  font-size: 20px;
 }
 
 #projects {
   background: linear-gradient(
     -135deg,
     var(--color-deep-purple),
-    var(--color-deep-purple)
+    var(--color-deep-purple-secondary)
   );
 }
 
