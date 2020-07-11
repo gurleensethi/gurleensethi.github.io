@@ -239,13 +239,21 @@
 #contact .contact-link {
   color: white;
   font-weight: lighter;
-  font-size: 24px;
+  font-size: 18px;
 }
 
 #contact .title {
   margin-top: 20px;
   font-weight: normal;
   font-size: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#contact .title img {
+  height: 14px;
+  margin-right: 16px;
 }
 
 #contact-form label {
