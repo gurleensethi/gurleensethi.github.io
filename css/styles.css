@@ -235,3 +235,49 @@
     var(--color-indigo-secondary)
   );
 }
+
+#contact .contact-link {
+  color: white;
+  font-weight: lighter;
+  font-size: 24px;
+}
+
+#contact .title {
+  margin-top: 20px;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+#contact-form label {
+  display: block;
+  margin-bottom: 32px;
+  width: 100%;
+  font-size: 16px;
+}
+
+.input {
+  margin-top: 8px;
+  display: block;
+  border: none;
+  border-radius: 4px;
+  padding: 8px;
+  font-size: 20px;
+  width: 100%;
+  outline: none;
+  transition: 0.3s;
+  outline: none;
+  border: 2px solid white;
+}
+
+.input:focus {
+  outline: none;
+  border: 2px solid var(--color-orange);
+}
+
+.label {
+  display: block;
+}
+
+#contact-form label textarea {
+  resize: none;
+}

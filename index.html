@@ -131,24 +131,29 @@
             <div>Android Developer Nanodegree | Udacity</div>
           </div>
         </div>
-        <div id="contact">
-          <h3>Send me an email</h3>
-          <p>contactgurleensethi@gmail.com</p>
-          <h3>Give me a call</h3>
-          <p>+1 (514)560-3230</p>
-          <h1>Let's get in touch!</h1>
-          <form id="contact-form">
+        <div id="contact" class="portfolio-item">
+          <h2 class="portfolio-item-title">Let's get in touch!</h2>
+          <h3 class="title">Send me an email</h3>
+          <a href="mailto:contactgurleensethi@gmail.com" class="contact-link"
+            >contactgurleensethi@gmail.com</a
+          >
+          <h3 class="title">Give me a call</h3>
+          <a href="tel:+1 (514) 560-3230" class="contact-link"
+            >+1 (514) 560-3230</a
+          >
+          <h3 class="title">Send me a message</h3>
+          <form id="contact-form" novalidate>
             <label>
               Name
-              <input type="text" placeholder="Name" />
+              <input class="input" type="text" placeholder="Name" />
             </label>
             <label>
               Email
-              <input type="email" placeholder="Email" />
+              <input class="input" type="email" placeholder="Email" />
             </label>
             <label>
               Message
-              <textarea placeholder="Message"></textarea>
+              <textarea class="input" rows="6" placeholder="Message"></textarea>
             </label>
             <button class="btn">Send</button>
           </form>
