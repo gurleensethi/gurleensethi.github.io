@@ -240,10 +240,14 @@
   color: white;
   font-weight: lighter;
   font-size: 18px;
+  text-decoration: none;
 }
 
 #contact .title {
-  margin-top: 20px;
+  padding: 0;
+  margin: 0;
+  margin-top: 40px;
+  margin-bottom: 8px;
   font-weight: normal;
   font-size: 20px;
   display: flex;
@@ -256,6 +260,10 @@
   margin-right: 16px;
 }
 
+#contact-form {
+  margin-top: 24px;
+}
+
 #contact-form label {
   display: block;
   margin-bottom: 32px;
@@ -264,22 +272,25 @@
 }
 
 .input {
-  margin-top: 8px;
+  margin-top: 12px;
   display: block;
   border: none;
-  border-radius: 4px;
   padding: 8px;
   font-size: 20px;
   width: 100%;
   outline: none;
   transition: 0.3s;
   outline: none;
-  border: 2px solid white;
+  color: white;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid grey;
 }
 
 .input:focus {
   outline: none;
-  border: 2px solid var(--color-orange);
+  border-bottom: 1px solid var(--color-orange);
 }
 
 .label {
