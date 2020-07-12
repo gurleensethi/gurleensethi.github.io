@@ -31,6 +31,9 @@
   --color-cyan-secondary: #0097a7;
   --color-indigo: #3f51b5;
   --color-indigo-secondary: #303f9f;
+
+  --material-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+    0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
 html,
@@ -84,5 +87,25 @@ textarea {
 
   to {
     transform: scale(0.9);
+  }
+}
+
+@keyframes slidein {
+  from {
+    transform: translateX(100%);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideout {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(100%);
   }
 }

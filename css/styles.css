@@ -1,3 +1,43 @@
+.details-dialog {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: white;
+  z-index: 999;
+  overflow: auto;
+  display: none;
+  background-color: rgba(0, 0, 0, 0.32);
+}
+
+.dialog-content {
+  animation: slidein 0.5s;
+  padding: 24px;
+  background-color: var(--color-orange);
+  box-shadow: var(--material-shadow);
+  width: 100%;
+}
+
+.dialog-content .close-btn {
+  height: 20px;
+  margin-bottom: 20px;
+}
+
+.dialog-content .close-btn:hover {
+  cursor: pointer;
+}
+
+.show-dialog {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.hide-dialog {
+  animation: slideout 0.5s;
+  animation-fill-mode: both;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -272,7 +312,7 @@
 }
 
 .input {
-  margin-top: 12px;
+  margin-top: 8px;
   display: block;
   border: none;
   padding: 8px;
