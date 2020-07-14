@@ -340,3 +340,17 @@
 #contact-form label textarea {
   resize: none;
 }
+
+#footer {
+  background: linear-gradient(
+    -135deg,
+    var(--color-blue-grey),
+    var(--color-blue-grey-secondary)
+  );
+  font-size: 14px;
+}
+
+.infinite-zoominout {
+  display: inline-block;
+  animation: zoominout 1s ease-in 0s infinite alternate-reverse;
+}

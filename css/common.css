@@ -31,6 +31,8 @@
   --color-cyan-secondary: #0097a7;
   --color-indigo: #3f51b5;
   --color-indigo-secondary: #303f9f;
+  --color-blue-grey: #37474f;
+  --color-blue-grey-secondary: #263238;
 
   --material-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
     0 10px 10px rgba(0, 0, 0, 0.22);
