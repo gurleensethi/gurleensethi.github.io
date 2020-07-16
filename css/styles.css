@@ -111,7 +111,7 @@
   display: inline-block;
 }
 
-.socials .social-item {
+.social-item a {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -122,18 +122,22 @@
   padding: 24px;
 }
 
-.socials .social-item:hover {
+.social-item a:focus {
+  outline: none;
+}
+
+.social-item:hover {
   cursor: pointer;
   filter: grayscale(0);
   opacity: 1;
 }
 
-.socials .social-item .icon {
+.social-item .icon {
   height: 24px;
   margin-bottom: 4px;
 }
 
-.socials .social-item .name {
+.social-item .name {
   position: absolute;
   top: 56px;
   transition: 0.3s;
