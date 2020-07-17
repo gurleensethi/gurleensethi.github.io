@@ -217,6 +217,29 @@
   );
 }
 
+.experience-list {
+}
+
+.experience-list-item {
+  margin-bottom: 16px;
+}
+
+.experience-list-item .name {
+  margin-bottom: 4px;
+  font-size: 28px;
+}
+
+.experience-list-item .position {
+  margin-bottom: 8px;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.experience-list-item .description {
+  font-size: 16px;
+  font-weight: lighter;
+}
+
 #skills {
   background: linear-gradient(
     -135deg,
