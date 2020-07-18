@@ -256,25 +256,29 @@
 }
 
 .skills-item {
-  min-width: 100px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  margin: 20px;
   transition: 0.3s;
+  margin: 8px;
+  background-color: #00695f;
+  padding: 12px;
+  border-radius: 4px;
 }
 
-.skills-item:hover {
+.skills-item:hover .logo {
+  transform: scale(1.5) rotate(5deg);
 }
 
 .skills-item .logo {
-  height: 48px;
-  margin-bottom: 16px;
+  height: 40px;
+  transition: 0.3s;
 }
 
 .skills-item .name {
   font-weight: lighter;
-  font-size: 20px;
+  font-size: 22px;
+  margin-left: 16px;
 }
 
 #projects {
