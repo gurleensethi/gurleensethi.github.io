@@ -240,8 +240,8 @@
 #skills {
   background: linear-gradient(
     -135deg,
-    var(--color-teal),
-    var(--color-teal-secondary)
+    var(--color-deep-purple),
+    var(--color-deep-purple-secondary)
   );
 }
 
@@ -267,7 +267,7 @@
   align-items: center;
   transition: 0.3s;
   margin: 8px;
-  background-color: #00695f;
+  background-color: #503199;
   padding: 12px;
   border-radius: 4px;
 }
@@ -290,8 +290,8 @@
 #projects {
   background: linear-gradient(
     -135deg,
-    var(--color-deep-purple),
-    var(--color-deep-purple-secondary)
+    var(--color-teal),
+    var(--color-teal-secondary)
   );
 }
 
