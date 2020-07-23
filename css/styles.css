@@ -81,8 +81,8 @@
   margin: 0;
   font-weight: 700;
   font-size: 40px;
-  animation: fadeslidein 0.5s 0.5s normal both;
-  opacity: 0;
+  animation: fadeslidein 0.5s 0.5s normal backwards;
+  opacity: 1;
   position: relative;
 }
 
@@ -91,8 +91,7 @@
   margin-bottom: 48px;
   max-width: 350px;
   font-size: 20px;
-  animation: fadeslidein 0.5s 0.6s normal both;
-  opacity: 0;
+  animation: fadeslidein 0.5s 0.6s normal backwards;
   position: relative;
 }
 
@@ -102,8 +101,7 @@
   padding: 0;
   margin: 0;
   margin-bottom: 48px;
-  animation: fadeslidein 0.5s 0.7s normal both;
-  opacity: 0;
+  animation: fadeslidein 0.5s 0.7s normal backwards;
   position: relative;
 }
 
@@ -157,8 +155,7 @@
 }
 
 #contact-me-btn {
-  animation: fadeslidein 0.5s 0.8s normal both;
-  opacity: 0;
+  animation: fadeslidein 0.5s 0.8s normal backwards;
   position: relative;
 }
 
@@ -183,7 +180,7 @@
 
 .portfolio-item > * {
   position: relative;
-  animation: fadeslidein 0.5s 0.5s normal both;
+  animation: fadeslidein 0.5s 0.5s normal backwards;
 }
 
 #education {
@@ -246,6 +243,15 @@
     var(--color-teal),
     var(--color-teal-secondary)
   );
+}
+
+.skill-list-title {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  margin-bottom: 16px;
+  margin-top: 24px;
 }
 
 .skills-list {
