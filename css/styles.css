@@ -295,6 +295,19 @@
   );
 }
 
+.project-list-item {
+  margin-bottom: 16px;
+}
+
+.project-list-item .title {
+}
+
+.project-list-item .description {
+  margin-bottom: 8px;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
 #certifications {
   background: linear-gradient(
     -135deg,
