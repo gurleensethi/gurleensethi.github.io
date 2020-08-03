@@ -296,15 +296,35 @@
 }
 
 .project-list-item {
-  margin-bottom: 16px;
+  margin-bottom: 24px;
+  padding: 16px;
+  border-radius: 6px;
+  background: #00756985;
+  transition: 0.3s;
+}
+
+.project-list-item:hover {
+  margin-bottom: 24px;
+  padding: 16px;
+  border-radius: 6px;
+  background: #007569;
+  cursor: pointer;
 }
 
 .project-list-item .title {
 }
 
+.project-list-item .date {
+  font-size: 14px;
+  margin-top: 4px;
+  font-weight: lighter;
+  margin-bottom: 8px;
+  letter-spacing: 2px;
+}
+
 .project-list-item .description {
   margin-bottom: 8px;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: lighter;
 }
 
