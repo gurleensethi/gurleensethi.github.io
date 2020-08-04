@@ -87,7 +87,7 @@
 }
 
 .main .description {
-  font-weight: lighter;
+  font-weight: 300;
   margin-bottom: 48px;
   max-width: 350px;
   font-size: 20px;
@@ -194,12 +194,12 @@
 .education-list-item .name {
   margin-bottom: 4px;
   font-size: 28px;
+  font-weight: 600;
 }
 
 .education-list-item .course {
   margin-bottom: 8px;
-  font-size: 20px;
-  font-weight: lighter;
+  font-size: 18px;
 }
 
 .education-list-item:not(:last-of-type) {
@@ -224,12 +224,12 @@
 .experience-list-item .name {
   margin-bottom: 4px;
   font-size: 28px;
+  font-weight: 600;
 }
 
 .experience-list-item .position {
   margin-bottom: 8px;
-  font-size: 20px;
-  font-weight: lighter;
+  font-size: 18px;
 }
 
 .experience-list-item .description {
@@ -312,20 +312,30 @@
 }
 
 .project-list-item .title {
+  font-weight: 600;
 }
 
 .project-list-item .date {
   font-size: 14px;
   margin-top: 4px;
   font-weight: lighter;
+  letter-spacing: 1.1px;
   margin-bottom: 8px;
-  letter-spacing: 2px;
 }
 
 .project-list-item .description {
   margin-bottom: 8px;
-  font-size: 18px;
-  font-weight: lighter;
+  font-size: 16px;
+}
+
+.project-list-item .tech-stack {
+  display: flex;
+  align-items: center;
+}
+
+.tech-stack .tech-stack-img {
+  height: 20px;
+  margin-right: 12px;
 }
 
 #certifications {
@@ -334,6 +344,14 @@
     var(--color-brown),
     var(--color-brown-secondary)
   );
+}
+
+.certification-list-item {
+  margin-bottom: 16px;
+}
+
+.certification-list-item .title {
+  font-weight: 600;
 }
 
 #contact {
