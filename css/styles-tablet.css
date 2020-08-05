@@ -6,4 +6,14 @@
   .portfolio-item {
     padding: 64px 40px;
   }
+
+  .project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .project-list-item {
+    width: 49%;
+  }
 }

@@ -54,6 +54,15 @@
   transition: 0.3s;
 }
 
+.view-details-btn.small {
+  font-size: 12px;
+}
+
+.view-details-btn.small .icon {
+  height: 16px;
+  margin-left: 0px;
+}
+
 .view-details-btn:hover {
   cursor: pointer;
 }
@@ -315,6 +324,11 @@
   font-weight: 600;
 }
 
+.project-list-item .type {
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
 .project-list-item .date {
   font-size: 14px;
   margin-top: 4px;
@@ -324,6 +338,7 @@
 }
 
 .project-list-item .description {
+  display: none;
   margin-bottom: 8px;
   font-size: 16px;
 }
