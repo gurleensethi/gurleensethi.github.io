@@ -8,22 +8,19 @@ jobs:
     runs-on: ubuntu-latest
     name: Build webpack
     steps:
-      - uses actions/checkout@v2
-      - uses actions/setup-node@v1
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
         with:
           node-version: 13
       - run: |
-        npm ci
-        npm run build
-        cd dist
-        git init
-        git config --global user.email sarusethi@rocketmail.com
-        git config --global user.name Gurleen Sethi
-        git remote add origin https://${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/gurleensethi/gurleensethi.github.io.git
-        git checkout -b gh-pages
-        git add .
-        git commit -m "Update"
-        git push origin head -f
-
-
-
+          npm ci
+          npm run build
+          cd dist
+          git init
+          git config --global user.email sarusethi@rocketmail.com
+          git config --global user.name Gurleen Sethi
+          git remote add origin https://${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/gurleensethi/gurleensethi.github.io.git
+          git checkout -b gh-pages
+          git add .
+          git commit -m "Update"
+          git push origin gh-pages -f
