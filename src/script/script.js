@@ -8,6 +8,7 @@ window.onload = () => {
 
   [
     { dialogId: "details-dialog-concordia", btnId: "view-details-concordia" },
+    { dialogId: "details-dialog-jaypee", btnId: "view-details-jaypee" },
   ].forEach(({ btnId, dialogId }) => setUpDetailsDialog(btnId, dialogId));
 };
 

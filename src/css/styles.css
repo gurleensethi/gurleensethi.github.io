@@ -1,3 +1,4 @@
+/****************** Dialog Styles**********************/
 .details-dialog {
   position: fixed;
   top: 0;
@@ -14,7 +15,6 @@
 .dialog-content {
   animation: slidein 0.3s, fadein 0.3s;
   padding: 24px;
-  background-color: var(--color-orange);
   box-shadow: var(--material-shadow);
   width: 100%;
 }
@@ -42,6 +42,24 @@
   animation: slideout 0.3s;
   animation-fill-mode: both;
 }
+
+.dialog-content .dialog-content-title {
+  margin-bottom: 4px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.dialog-content .dialog-content-subtitle {
+  margin-bottom: 16px;
+  font-size: 24px;
+}
+
+.dialog-content .dialog-content-details {
+  margin-bottom: 16px;
+  font-size: 18px;
+}
+
+/****************** Dialog Styles End**********************/
 
 .container {
   display: flex;

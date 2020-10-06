@@ -74,6 +74,14 @@ textarea {
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
+.background-orange {
+  background: linear-gradient(
+    -135deg,
+    var(--color-orange),
+    var(--color-orange-secondary)
+  );
+}
+
 @keyframes fadeslidein {
   from {
     left: -40px;
