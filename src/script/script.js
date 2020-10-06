@@ -22,8 +22,10 @@ function setUpDetailsDialog(viewDetailsBtnId, dialogId) {
   }
 
   function closeDialog() {
+    dialog.classList.add("hide-dialog");
     dialogContent.classList.add("hide-dialog");
     setTimeout(() => {
+      dialog.classList.remove("hide-dialog");
       dialogContent.classList.remove("hide-dialog");
       dialog.classList.remove("show-dialog");
     }, 500);

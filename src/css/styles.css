@@ -12,7 +12,7 @@
 }
 
 .dialog-content {
-  animation: slidein 0.5s;
+  animation: slidein 0.3s, fadein 0.3s;
   padding: 24px;
   background-color: var(--color-orange);
   box-shadow: var(--material-shadow);
@@ -28,13 +28,18 @@
   cursor: pointer;
 }
 
-.show-dialog {
+.details-dialog.show-dialog {
   display: flex;
   justify-content: flex-end;
 }
 
-.hide-dialog {
-  animation: slideout 0.5s;
+.details-dialog.hide-dialog {
+  animation: fadeout 0.3s;
+  animation-fill-mode: both;
+}
+
+.dialog-content.hide-dialog {
+  animation: slideout 0.3s;
   animation-fill-mode: both;
 }
 
