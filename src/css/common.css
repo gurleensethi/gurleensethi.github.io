@@ -82,6 +82,14 @@ textarea {
   );
 }
 
+.background-blue {
+  background: linear-gradient(
+    -135deg,
+    var(--color-blue),
+    var(--color-blue-secondary)
+  );
+}
+
 @keyframes fadeslidein {
   from {
     left: -40px;

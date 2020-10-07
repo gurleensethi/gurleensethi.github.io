@@ -50,13 +50,25 @@
 }
 
 .dialog-content .dialog-content-subtitle {
-  margin-bottom: 16px;
+  margin-bottom: 4px;
   font-size: 24px;
+}
+.dialog-content .dialog-content-subtitle-secondary {
+  font-size: 16px;
 }
 
 .dialog-content .dialog-content-details {
-  margin-bottom: 16px;
+  margin-top: 16px;
   font-size: 18px;
+}
+
+.dialog-content-list {
+  margin-top: 16px;
+  padding-left: 16px;
+}
+
+.dialog-content-list-item {
+  margin-bottom: 16px;
 }
 
 /****************** Dialog Styles End**********************/
@@ -75,6 +87,7 @@
   font-weight: normal;
   align-items: center;
   transition: 0.3s;
+  margin-top: 8px;
 }
 
 .view-details-btn.small {
@@ -265,7 +278,7 @@
 
 .experience-list-item .description {
   font-size: 16px;
-  font-weight: lighter;
+  font-weight: 300;
 }
 
 #skills {

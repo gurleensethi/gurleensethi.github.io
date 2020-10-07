@@ -9,7 +9,12 @@ window.onload = () => {
   [
     { dialogId: "details-dialog-concordia", btnId: "view-details-concordia" },
     { dialogId: "details-dialog-jaypee", btnId: "view-details-jaypee" },
+    { dialogId: "details-dialog-alliance", btnId: "view-details-alliance" },
+    { dialogId: "details-dialog-nobbas", btnId: "view-details-nobbas" },
+    { dialogId: "details-dialog-ted", btnId: "view-details-ted" },
   ].forEach(({ btnId, dialogId }) => setUpDetailsDialog(btnId, dialogId));
+
+  document.getElementById("view-details-ted").click();
 };
 
 function setUpDetailsDialog(viewDetailsBtnId, dialogId) {
@@ -25,6 +30,7 @@ function setUpDetailsDialog(viewDetailsBtnId, dialogId) {
   function closeDialog() {
     dialog.classList.add("hide-dialog");
     dialogContent.classList.add("hide-dialog");
+
     setTimeout(() => {
       dialog.classList.remove("hide-dialog");
       dialogContent.classList.remove("hide-dialog");
