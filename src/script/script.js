@@ -13,8 +13,6 @@ window.onload = () => {
     { dialogId: "details-dialog-nobbas", btnId: "view-details-nobbas" },
     { dialogId: "details-dialog-ted", btnId: "view-details-ted" },
   ].forEach(({ btnId, dialogId }) => setUpDetailsDialog(btnId, dialogId));
-
-  document.getElementById("view-details-ted").click();
 };
 
 function setUpDetailsDialog(viewDetailsBtnId, dialogId) {
