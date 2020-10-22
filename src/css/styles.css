@@ -244,6 +244,7 @@
 .education-list-item .course {
   margin-bottom: 8px;
   font-size: 18px;
+  font-weight: 400;
 }
 
 .education-list-item:not(:last-of-type) {
@@ -266,19 +267,23 @@
 }
 
 .experience-list-item .name {
+  margin-bottom: 8px;
+  font-size: 18px;
+}
+
+.experience-list-item .position {
   margin-bottom: 4px;
   font-size: 28px;
   font-weight: 600;
 }
 
-.experience-list-item .position {
-  margin-bottom: 8px;
-  font-size: 18px;
-}
-
 .experience-list-item .description {
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 400;
+}
+
+.experience-list-item .description strong {
+  font-weight: 600;
 }
 
 #skills {
