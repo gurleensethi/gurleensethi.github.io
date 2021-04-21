@@ -1,0 +1,15 @@
+{
+  "user": {
+    "name": "Gurleen Sethi",
+    "email": "contactgurleensethi@gmail.com",
+    "tagline": "Masters gradute in Software Engineering with over 2 years of experience developing mobile and web applications.",
+    "social": [
+      {
+        "name": "GitHub",
+        "link": "https://www.github.com/gurleensethi"
+      }
+    ]
+  },
+  "education": [],
+  "projects": []
+}
