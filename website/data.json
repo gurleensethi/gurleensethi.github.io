@@ -6,7 +6,13 @@
     "social": [
       {
         "name": "GitHub",
-        "link": "https://www.github.com/gurleensethi"
+        "link": "https://www.github.com/gurleensethi",
+        "icon": "/images/github.svg"
+      },
+      {
+        "name": "LinkedIn",
+        "link": "https://www.linkedin.com/in/gurleensethi",
+        "icon": "/images/linkedin.svg"
       }
     ]
   },
