@@ -14,6 +14,7 @@ module.exports = {
   variants: {
     extend: {
       backgroundColor: ["active"],
+      margin: ["last"],
     },
   },
   plugins: [],

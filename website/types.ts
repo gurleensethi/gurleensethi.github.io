@@ -5,6 +5,7 @@ export interface GeneralInfo {
   social: {
     name: string;
     link: string;
+    icon: string;
   }[];
 }
 
