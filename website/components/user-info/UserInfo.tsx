@@ -14,7 +14,7 @@ export const UserInfo: FC<UserInfoProps> = ({ info }) => {
         <h1 className="text-3xl mb-2 font-light">
           Hey <span className={styles["hand-anim"]}>👋</span> I am
         </h1>
-        <h1 className="text-4xl font-medium mb-8">{info.name}</h1>
+        <h1 className="text-5xl font-medium mb-8">{info.name}</h1>
         <h1 className="text-xl font-light flex text-center mb-8 max-w-screen-sm">
           {info.tagline}
         </h1>
