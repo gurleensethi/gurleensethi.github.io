@@ -1,6 +1,7 @@
 import { GetStaticProps } from "next";
 import React, { FC } from "react";
-import { UserInfo } from "../components/UserInfo";
+import { ContactForm } from "../components/contact-form/ContactForm";
+import { UserInfo } from "../components/user-info/UserInfo";
 import { PortfolioData } from "../types";
 import { getPortfolioData } from "../utils/get-portfilio-data";
 
@@ -12,6 +13,7 @@ export const Home: FC<HomeProps> = ({ portfolioData }) => {
   return (
     <div>
       <UserInfo info={portfolioData.user} />
+      <ContactForm />
     </div>
   );
 };
