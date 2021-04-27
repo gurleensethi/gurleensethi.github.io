@@ -15,3 +15,10 @@ body {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .btn {
+    @apply transition text-white bg-blue-600 px-4 py-2 rounded-md;
+    @apply focus:outline-none hover:bg-blue-700 active:bg-blue-800;
+  }
+}

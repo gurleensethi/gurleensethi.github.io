@@ -7,15 +7,13 @@ export interface UserInfoProps {
 
 export const UserInfo: FC<UserInfoProps> = ({ info }) => {
   return (
-    <div className="p-8 h-screen flex flex-col justify-center ">
-      <h1 className="text-4xl mb-2">
-        <span className="text-blue-700">
-          {info.name} - <br />
-        </span>
-        Software Engineer
-      </h1>
-      <p className="text-base text-gray-700">{info.tagline}</p>
-      <img src="/images/developer.svg" className="mt-16 block" />
+    <div className="p-8 h-screen flex flex-col justify-center items-center">
+      <h1 className="text-3xl mb-2 font-light">Hey 👋 I am</h1>
+      <h1 className="text-4xl font-medium mb-8">{info.name}</h1>
+      <h1 className="text-lg flex text-center mb-8">{info.tagline}</h1>
+      <button className="btn">
+        Contact Me
+      </button>
     </div>
   );
 };
