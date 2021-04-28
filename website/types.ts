@@ -9,8 +9,21 @@ export interface GeneralInfo {
   }[];
 }
 
+export interface ExperienceData {
+  title: string;
+  companyName: string;
+  shortDescription: string;
+  startDate: string;
+  endDate: string;
+  skills: {
+    name: string;
+    icon: string;
+  }[];
+}
+
 export interface PortfolioData {
   user: GeneralInfo;
+  experience: ExperienceData[];
   education: {}[];
   projects: {}[];
 }

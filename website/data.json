@@ -17,5 +17,57 @@
     ]
   },
   "education": [],
+  "experience": [
+    {
+      "title": "Software Developer",
+      "companyName": "Alliance Avantages Sociaux",
+      "shortDescription": "Web development and deployment utilizing technologies such as Node.js, Docker, GitHub Actions.",
+      "startDate": "Apr 2020",
+      "endDate": "Jan 2021",
+      "skills": [
+        {
+          "name": "React",
+          "icon": "/images/react.svg"
+        },
+        {
+          "name": "NodeJS",
+          "icon": "/images/nodejs.svg"
+        },
+        {
+          "name": "Docker",
+          "icon": "/images/docker.svg"
+        },
+        {
+          "name": "Kubernetes",
+          "icon": "/images/kubernetes.svg"
+        }
+      ]
+    },
+    {
+      "title": "Mobile Application Developer - Flutter",
+      "companyName": "Nobbas Technologies",
+      "shortDescription": "Developed and deployed customer facing real-estate cross platform mobile application using Flutter and Dart.",
+      "startDate": "Jan 2019",
+      "endDate": "Mar 2020",
+      "skills": [
+        {
+          "name": "Flutter",
+          "icon": "/images/flutter.svg"
+        },
+        {
+          "name": "Dart",
+          "icon": "/images/dart.svg"
+        }
+      ]
+    },
+    {
+      "title": "System Analyst - Android",
+      "companyName": "Ted Consulting",
+      "shortDescription": "Development and migration of existing native android mobile application to Flutter.",
+      "startDate": "Jun 2018",
+      "endDate": "Nov 2018",
+      "skills": []
+    }
+  ],
   "projects": []
 }
