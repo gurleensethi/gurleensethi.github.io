@@ -85,19 +85,41 @@
       }
     ]
   },
-  "education": [
-    {
-      "name": "Concordia University",
-      "degree": "Masters of Engineering in Software Engineering",
-      "startDate": "Jan 2019",
-      "endDate": "Apr 2021"
-    },
-    {
-      "name": "Jaypee Institute of Information Technology",
-      "degree": "Bachelor of Technology in Computer Science",
-      "startDate": "Aug 2014",
-      "endDate": "May 2018"
-    }
-  ],
-  "projects": []
+  "education": {
+    "summary": "I have a Bacehlor's in Computer Science and a Master's in Software Engineering. During the course of my academics I have built many projects and done a handful of internships.",
+    "degrees": [
+      {
+        "name": "Concordia University",
+        "degree": "Masters of Engineering in Software Engineering",
+        "startDate": "Jan 2019",
+        "endDate": "Apr 2021",
+        "location": "Montreal, Canada"
+      },
+      {
+        "name": "Jaypee Institute of Information Technology",
+        "degree": "Bachelor of Technology in Computer Science",
+        "startDate": "Aug 2014",
+        "endDate": "May 2018",
+        "location": "Noida, India"
+      }
+    ]
+  },
+  "projects": {
+    "summary": "I have a Bacehlor's in Computer Science and a Master's in Software Engineering. During the course of my academics I have built many projects and done a handful of internships.",
+    "projects": [
+      {
+        "name": "Engineering Blogs",
+        "description": "A full-stack web application that aggregates blog posts from different technology blogs.",
+        "github": "https://github.com/gurleensethi/engineering-blogs",
+        "link": "https://engineeringblogs.herokuapp.com",
+        "coverImage": "/images/engineering-blogs.png"
+      },
+      {
+        "name": "Captive Portal X",
+        "description": "An android client for Sopho's cyberoam firewal that provides various add-on features.",
+        "link": "https://play.google.com/store/apps/details?id=com.thetechnocafe.gurleensethi.captiveportalx",
+        "coverImage": "/images/engineering-blogs.png"
+      }
+    ]
+  }
 }

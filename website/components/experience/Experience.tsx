@@ -30,7 +30,7 @@ export const Experience: FC<ExperienceProps> = ({ data }) => {
                   return (
                     <div
                       key={item.name}
-                      className="transition opacity-70 cursor-pointer flex flex-col justify-center items-center mr-6 last:mr-0"
+                      className="transition opacity-70 flex flex-col justify-center items-center mr-6 last:mr-0"
                     >
                       <img src={item.icon} className="h-6" />
                     </div>
