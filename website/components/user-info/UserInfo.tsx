@@ -16,7 +16,7 @@ export const UserInfo: FC<UserInfoProps> = ({ info }) => {
   return (
     <>
       <div
-        className="p-8 flex flex-col justify-center items-center"
+        className={`p-8 flex flex-col justify-center items-center ${styles["animate-in"]}`}
         style={{ height }}
       >
         <h1 className="text-3xl mb-2 font-light">

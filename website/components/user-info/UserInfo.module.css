@@ -3,6 +3,10 @@
   animation: hand-animation 0.5s ease-in-out 0s infinite alternate-reverse;
 }
 
+.animate-in {
+  animation: slide-up 1s ease-in-out 0s;
+}
+
 @keyframes hand-animation {
   from {
     transform: rotate(-10deg);
@@ -12,5 +16,15 @@
   to {
     transform: rotate(5deg);
     transform-origin: 80% 80%;
+  }
+}
+
+@keyframes slide-up {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
   }
 }

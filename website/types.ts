@@ -28,15 +28,34 @@ export interface JobData {
 }
 
 export interface EducationData {
+  summary: string;
+  degrees: DegreeData[];
+}
+
+export interface DegreeData {
   name: string;
   degree: string;
   startDate: string;
   endDate: string;
+  location: string;
+}
+
+export interface ProjectsData {
+  summary: string;
+  projects: ProjectData[];
+}
+
+export interface ProjectData {
+  name: string;
+  description: string;
+  coverImage: string;
+  github?: string;
+  link?: string;
 }
 
 export interface PortfolioData {
   user: GeneralInfo;
   experience: ExperienceData;
-  education: EducationData[];
-  projects: {}[];
+  education: EducationData;
+  projects: ProjectsData;
 }

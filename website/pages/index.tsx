@@ -3,6 +3,7 @@ import React, { FC } from "react";
 import { ContactForm } from "../components/contact-form/ContactForm";
 import { Education } from "../components/education/Education";
 import { Experience } from "../components/experience/Experience";
+import { Projects } from "../components/projects/Projects";
 import { UserInfo } from "../components/user-info/UserInfo";
 import { PortfolioData } from "../types";
 import { getPortfolioData } from "../utils/get-portfilio-data";
@@ -18,11 +19,12 @@ export const Home: FC<HomeProps> = ({ portfolioData }) => {
     <div>
       <UserInfo info={user} />
       <Experience data={experience} />
-      <p className="w-full p-4 text-center opacity-40 text-xl my-12">
+      <p className="w-full p-6 text-center opacity-40 text-xl my-8">
         I am not a designer, but I love clean designs{" "}
-        <span className="text-base animate-pulse inline-block">🤍</span>
+        <span className="text-sm animate-pulse inline-block">🤍</span>
       </p>
       <Education data={education} />
+      <Projects data={projects} />
       <ContactForm />
     </div>
   );
