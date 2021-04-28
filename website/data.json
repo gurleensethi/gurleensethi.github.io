@@ -2,6 +2,7 @@
   "user": {
     "name": "Gurleen Sethi",
     "email": "contactgurleensethi@gmail.com",
+    "title": "Software Engineer",
     "tagline": "Masters gradute in Software Engineering with over 2 years of experience developing web and mobile applications.",
     "social": [
       {
@@ -16,57 +17,86 @@
       }
     ]
   },
-  "education": [],
-  "experience": [
+  "experience": {
+    "summary": "I have experience working in different types of environments from face-paced startups to mid-sized companies. I have worked with a diverse set of technologies to both develop and deploy web/mobile software.",
+    "jobs": [
+      {
+        "title": "Software Developer",
+        "companyName": "Alliance Avantages Sociaux",
+        "shortDescription": "Web development and deployment utilizing technologies such as JavaScript, React, Node.js, Docker, Kubernetes.",
+        "startDate": "Apr 2020",
+        "endDate": "Jan 2021",
+        "skills": [
+          {
+            "name": "React",
+            "icon": "/images/react.svg"
+          },
+          {
+            "name": "NodeJS",
+            "icon": "/images/nodejs.svg"
+          },
+          {
+            "name": "Docker",
+            "icon": "/images/docker.svg"
+          },
+          {
+            "name": "Kubernetes",
+            "icon": "/images/kubernetes.svg"
+          }
+        ]
+      },
+      {
+        "title": "Mobile Application Developer",
+        "companyName": "Nobbas Technologies",
+        "shortDescription": "Developed and deployed customer facing real-estate cross platform mobile application using Flutter and Dart.",
+        "startDate": "Jan 2019",
+        "endDate": "Mar 2020",
+        "skills": [
+          {
+            "name": "Flutter",
+            "icon": "/images/flutter.svg"
+          },
+          {
+            "name": "Dart",
+            "icon": "/images/dart.svg"
+          }
+        ]
+      },
+      {
+        "title": "System Analyst (Android)",
+        "companyName": "Ted Consulting",
+        "shortDescription": "Development of new mobile applications and migration of existing native android application to Flutter.",
+        "startDate": "Jun 2018",
+        "endDate": "Nov 2018",
+        "skills": [
+          {
+            "name": "Flutter",
+            "icon": "/images/flutter.svg"
+          },
+          {
+            "name": "Dart",
+            "icon": "/images/dart.svg"
+          },
+          {
+            "name": "Android",
+            "icon": "/images/android.svg"
+          }
+        ]
+      }
+    ]
+  },
+  "education": [
     {
-      "title": "Software Developer",
-      "companyName": "Alliance Avantages Sociaux",
-      "shortDescription": "Web development and deployment utilizing technologies such as Node.js, Docker, GitHub Actions.",
-      "startDate": "Apr 2020",
-      "endDate": "Jan 2021",
-      "skills": [
-        {
-          "name": "React",
-          "icon": "/images/react.svg"
-        },
-        {
-          "name": "NodeJS",
-          "icon": "/images/nodejs.svg"
-        },
-        {
-          "name": "Docker",
-          "icon": "/images/docker.svg"
-        },
-        {
-          "name": "Kubernetes",
-          "icon": "/images/kubernetes.svg"
-        }
-      ]
-    },
-    {
-      "title": "Mobile Application Developer - Flutter",
-      "companyName": "Nobbas Technologies",
-      "shortDescription": "Developed and deployed customer facing real-estate cross platform mobile application using Flutter and Dart.",
+      "name": "Concordia University",
+      "degree": "Masters of Engineering in Software Engineering",
       "startDate": "Jan 2019",
-      "endDate": "Mar 2020",
-      "skills": [
-        {
-          "name": "Flutter",
-          "icon": "/images/flutter.svg"
-        },
-        {
-          "name": "Dart",
-          "icon": "/images/dart.svg"
-        }
-      ]
+      "endDate": "Apr 2021"
     },
     {
-      "title": "System Analyst - Android",
-      "companyName": "Ted Consulting",
-      "shortDescription": "Development and migration of existing native android mobile application to Flutter.",
-      "startDate": "Jun 2018",
-      "endDate": "Nov 2018",
-      "skills": []
+      "name": "Jaypee Institute of Information Technology",
+      "degree": "Bachelor of Technology in Computer Science",
+      "startDate": "Aug 2014",
+      "endDate": "May 2018"
     }
   ],
   "projects": []

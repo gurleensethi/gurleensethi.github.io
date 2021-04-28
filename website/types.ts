@@ -2,6 +2,7 @@ export interface GeneralInfo {
   name: string;
   email: string;
   tagline: string;
+  title: string;
   social: {
     name: string;
     link: string;
@@ -10,6 +11,11 @@ export interface GeneralInfo {
 }
 
 export interface ExperienceData {
+  summary: string;
+  jobs: JobData[];
+}
+
+export interface JobData {
   title: string;
   companyName: string;
   shortDescription: string;
@@ -21,9 +27,16 @@ export interface ExperienceData {
   }[];
 }
 
+export interface EducationData {
+  name: string;
+  degree: string;
+  startDate: string;
+  endDate: string;
+}
+
 export interface PortfolioData {
   user: GeneralInfo;
-  experience: ExperienceData[];
-  education: {}[];
+  experience: ExperienceData;
+  education: EducationData[];
   projects: {}[];
 }
