@@ -1,6 +1,7 @@
 import { GetStaticProps } from "next";
 import React, { FC } from "react";
 import { ContactForm } from "../components/contact-form/ContactForm";
+import { Education } from "../components/education/Education";
 import { Experience } from "../components/experience/Experience";
 import { UserInfo } from "../components/user-info/UserInfo";
 import { PortfolioData } from "../types";
@@ -11,10 +12,17 @@ export interface HomeProps {
 }
 
 export const Home: FC<HomeProps> = ({ portfolioData }) => {
+  const { user, projects, experience, education } = portfolioData;
+
   return (
     <div>
-      <UserInfo info={portfolioData.user} />
-      <Experience experiences={portfolioData.experience} />
+      <UserInfo info={user} />
+      <Experience data={experience} />
+      <p className="w-full p-4 text-center opacity-40 text-xl my-12">
+        I am not a designer, but I love clean designs{" "}
+        <span className="text-base animate-pulse inline-block">🤍</span>
+      </p>
+      <Education data={education} />
       <ContactForm />
     </div>
   );

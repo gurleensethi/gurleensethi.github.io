@@ -1,20 +1,29 @@
-import { FC } from "react";
-import { GeneralInfo } from "../types";
+import { FC, useEffect, useState } from "react";
+import { GeneralInfo } from "../../types";
 import styles from "./UserInfo.module.css";
-import Image from "next/image";
 
 export interface UserInfoProps {
   info: GeneralInfo;
 }
 
 export const UserInfo: FC<UserInfoProps> = ({ info }) => {
+  const [height, setHeignt] = useState("100vh");
+
+  useEffect(() => {
+    setHeignt(`${window.innerHeight}px`);
+  }, []);
+
   return (
     <>
-      <div className="p-8 min-h-screen flex flex-col justify-center items-center">
+      <div
+        className="p-8 flex flex-col justify-center items-center"
+        style={{ height }}
+      >
         <h1 className="text-3xl mb-2 font-light">
           Hey <span className={styles["hand-anim"]}>👋</span> I am
         </h1>
-        <h1 className="text-5xl font-medium mb-8">{info.name}</h1>
+        <h1 className="text-5xl font-medium mb-4">{info.name}</h1>
+        <h1 className="text-lg font-light mb-8">{info.title}</h1>
         <h1 className="text-xl font-light flex text-center mb-8 max-w-screen-sm">
           {info.tagline}
         </h1>
@@ -26,9 +35,9 @@ export const UserInfo: FC<UserInfoProps> = ({ info }) => {
                 href={item.link}
                 target="_blank"
                 rel="noopener"
-                className="trasnition opacity-80 hover:opacity-100 mr-6 last:mr-0"
+                className="inline-block transition-opacity opacity-80 hover:opacity-100 mr-6 last:mr-0"
               >
-                <Image
+                <img
                   src={item.icon}
                   height="32px"
                   width="32px"
