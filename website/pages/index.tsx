@@ -31,7 +31,7 @@ export const Home: FC<HomeProps> = ({ portfolioData }) => {
       </p>
       <Education data={education} />
       <Projects data={projects} />
-      <ContactForm />
+      <ContactForm generalInfo={user} />
     </div>
   );
 };
