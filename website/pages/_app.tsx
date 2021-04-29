@@ -4,7 +4,7 @@ import Head from "next/head";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <div className="bg-black text-white">
+    <div className="bg-black text-white" lang="en">
       <Head>
         <title>Gurleen Sethi</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />

@@ -28,4 +28,8 @@ body {
     @apply text-black bg-white;
     @apply hover:bg-gray-200 active:bg-gray-300;
   }
+
+  .section-heading {
+    @apply text-4xl mb-12;
+  }
 }

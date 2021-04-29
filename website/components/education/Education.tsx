@@ -7,8 +7,8 @@ export type EducationProps = {
 
 export const Education: FC<EducationProps> = ({ data }) => {
   return (
-    <div className="p-4 mb-8">
-      <h1 className="text-4xl mb-8">Education</h1>
+    <div className="p-4 mb-12">
+      <h1 className="section-heading">Education</h1>
       <p className="mb-8 text-md font-light">{data.summary}</p>
       <div className="grid md:grid-cols-2 gap-8">
         {data.degrees.map((item, index) => {

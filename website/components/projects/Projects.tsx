@@ -7,8 +7,8 @@ export type ProjectsProps = {
 
 export const Projects: FC<ProjectsProps> = ({ data }) => {
   return (
-    <div className="p-4 mb-8">
-      <h1 className="text-4xl mb-8">Projects</h1>
+    <div className="p-4 mb-12">
+      <h1 className="section-heading">Projects</h1>
       <div className="grid md:grid-cols-2 gap-8">
         {data.projects.map((item, index) => {
           return (

@@ -7,8 +7,8 @@ export type SkillsProps = {
 
 export const Skills: FC<SkillsProps> = ({ data }) => {
   return (
-    <div className="p-4 mb-8">
-      <h1 className="text-4xl mb-8">Skills</h1>
+    <div className="p-4 mb-12">
+      <h1 className="section-heading">Skills</h1>
       <div className="flex flex-wrap justify-center">
         {data.items.map((item, index) => {
           return (
