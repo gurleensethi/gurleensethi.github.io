@@ -121,5 +121,41 @@
         "coverImage": "/images/engineering-blogs.png"
       }
     ]
+  },
+  "skills": {
+    "items": [
+      {
+        "name": "JavaScript",
+        "icon": "/images/javascript.svg"
+      },
+      {
+        "name": "TypeScript",
+        "icon": "/images/typescript.svg"
+      },
+      {
+        "name": "React",
+        "icon": "/images/react.svg"
+      },
+      {
+        "name": "Node.js",
+        "icon": "/images/nodejs.svg"
+      },
+      {
+        "name": "SQL",
+        "icon": "/images/database.svg"
+      },
+      {
+        "name": "Java",
+        "icon": "/images/java.svg"
+      },
+      {
+        "name": "Docker",
+        "icon": "/images/docker.svg"
+      },
+      {
+        "name": "Kubernetes",
+        "icon": "/images/kubernetes.svg"
+      }
+    ]
   }
 }

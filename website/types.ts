@@ -53,9 +53,19 @@ export interface ProjectData {
   link?: string;
 }
 
+export interface SkillsData {
+  items: SkillData[];
+}
+
+export interface SkillData {
+  name: string;
+  icon: string;
+}
+
 export interface PortfolioData {
   user: GeneralInfo;
   experience: ExperienceData;
   education: EducationData;
   projects: ProjectsData;
+  skills: SkillsData;
 }

@@ -4,6 +4,7 @@ import { ContactForm } from "../components/contact-form/ContactForm";
 import { Education } from "../components/education/Education";
 import { Experience } from "../components/experience/Experience";
 import { Projects } from "../components/projects/Projects";
+import { Skills } from "../components/skills/Skills";
 import { UserInfo } from "../components/user-info/UserInfo";
 import { PortfolioData } from "../types";
 import { getPortfolioData } from "../utils/get-portfilio-data";
@@ -13,11 +14,12 @@ export interface HomeProps {
 }
 
 export const Home: FC<HomeProps> = ({ portfolioData }) => {
-  const { user, projects, experience, education } = portfolioData;
+  const { user, projects, experience, education, skills } = portfolioData;
 
   return (
     <div>
       <UserInfo info={user} />
+      <Skills data={skills} />
       <Experience data={experience} />
       <p className="w-full p-6 text-center opacity-40 text-xl my-8">
         I am not a designer, but I love clean designs{" "}
