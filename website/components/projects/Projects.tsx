@@ -31,7 +31,7 @@ export const Projects: FC<ProjectsProps> = ({ data }) => {
                     <a
                       href={item.github}
                       target="_blank"
-                      rel="noopeaner"
+                      rel="noopener noreferrer"
                       className="transition flex bg-white-700 px-2 py-1 rounded-md items-center ml-4 hover:bg-black hover:bg-opacity-20"
                     >
                       <img src="/images/github.svg" className="h-4" />
@@ -42,7 +42,7 @@ export const Projects: FC<ProjectsProps> = ({ data }) => {
                     <a
                       href={item.link}
                       target="_blank"
-                      rel="noopeaner"
+                      rel="noopener noreferrer"
                       className="transition flex bg-white-700 px-2 py-1 rounded-md items-center ml-4 hover:bg-black hover:bg-opacity-20"
                     >
                       <img src="/images/rocket.svg" className="h-4" />

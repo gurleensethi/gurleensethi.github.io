@@ -40,7 +40,7 @@ export const UserInfo: FC<UserInfoProps> = ({ info }) => {
                 key={item.name}
                 href={item.link}
                 target="_blank"
-                rel="noopener"
+                rel="noopener noreferrer"
                 className="inline-block transition-opacity opacity-80 hover:opacity-100 mr-6 last:mr-0"
               >
                 <img
