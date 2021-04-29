@@ -6,6 +6,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <div className="bg-black text-white">
       <Head>
+        <title>Gurleen Sethi</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
 

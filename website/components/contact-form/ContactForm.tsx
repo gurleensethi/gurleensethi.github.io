@@ -9,7 +9,7 @@ export const ContactForm: FC<ContactFormProps> = () => {
   };
 
   return (
-    <div className="p-4 mb-8">
+    <div className="p-4 mb-8" id="contact-me">
       <h1 className="text-4xl mb-8">Contact Me</h1>
       <div className="mb-12 md:flex justify-center">
         <a

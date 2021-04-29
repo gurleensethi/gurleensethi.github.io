@@ -13,6 +13,12 @@ export const UserInfo: FC<UserInfoProps> = ({ info }) => {
     setHeignt(`${window.innerHeight}px`);
   }, []);
 
+  const onContactMeClick = () => {
+    document
+      .getElementById("contact-me")
+      .scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <>
       <div
@@ -47,7 +53,9 @@ export const UserInfo: FC<UserInfoProps> = ({ info }) => {
             );
           })}
         </div>
-        <button className="btn">Contact Me</button>
+        <button className="btn" onClick={onContactMeClick}>
+          Contact Me
+        </button>
       </div>
     </>
   );
