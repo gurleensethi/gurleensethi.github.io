@@ -1,9 +1,12 @@
 import React, { FC } from "react";
+import { GeneralInfo } from "../../types";
 import styles from "./ContactForm.module.css";
 
-export interface ContactFormProps {}
+export interface ContactFormProps {
+  generalInfo: GeneralInfo;
+}
 
-export const ContactForm: FC<ContactFormProps> = () => {
+export const ContactForm: FC<ContactFormProps> = ({ generalInfo }) => {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
   };
@@ -13,7 +16,7 @@ export const ContactForm: FC<ContactFormProps> = () => {
       <h1 className="section-heading">Contact Me</h1>
       <div className="mb-12 md:flex justify-center">
         <a
-          href="mailto:contactgurleensethi@gmail.com"
+          href={`mailti:${generalInfo.email}`}
           className={`${styles["email-container"]} transition flex items-center rounded-md px-4 py-3 mb-4 md:mr-8 ring-1 ring-white hover:bg-gray-900`}
         >
           <img
@@ -26,7 +29,7 @@ export const ContactForm: FC<ContactFormProps> = () => {
           </div>
         </a>
         <a
-          href="tel:contactgurleensethi@gmail.com"
+          href={`tel:${generalInfo.phone}`}
           className={`${styles["phone-container"]} flex items-center rounded-md px-4 py-3 mb-4 ring-1 ring-white hover:bg-gray-900`}
         >
           <img

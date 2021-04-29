@@ -1,6 +1,7 @@
 export interface GeneralInfo {
   name: string;
   email: string;
+  phone: string;
   tagline: string;
   title: string;
   social: {
