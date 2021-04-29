@@ -13,9 +13,10 @@ jobs:
         with:
           node-version: 13
       - run: |
+          cd website
           npm ci
-          npm run build
-          cd dist
+          npm run build-export
+          cd out
           git init
           git config --global user.email sarusethi@rocketmail.com
           git config --global user.name Gurleen Sethi
