@@ -1,0 +1,24 @@
+.email-container:hover .animate-email {
+  animation: email-anim 0.7s ease-in-out 0s infinite alternate-reverse;
+}
+
+@keyframes email-anim {
+  from {
+    transform: scale(0.8) translateY(5px) translateX(-5px);
+  }
+}
+
+.phone-container:hover .animate-phone {
+  animation: email-phone 0.15s ease-in-out 0s infinite alternate-reverse;
+  animation-fill-mode: forwards;
+}
+
+@keyframes email-phone {
+  from {
+    transform: rotate(-10deg);
+  }
+
+  to {
+    transform: rotate(-40deg);
+  }
+}
