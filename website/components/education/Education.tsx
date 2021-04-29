@@ -26,6 +26,7 @@ export const Education: FC<EducationProps> = ({ data }) => {
               <img
                 src="/images/graduation.svg"
                 className="opacity-70 h-6 absolute right-6 top-4"
+                alt="degree"
               />
             </div>
           );

@@ -34,7 +34,11 @@ export const Projects: FC<ProjectsProps> = ({ data }) => {
                       rel="noopener noreferrer"
                       className="transition flex bg-white-700 px-2 py-1 rounded-md items-center ml-4 hover:bg-black hover:bg-opacity-20"
                     >
-                      <img src="/images/github.svg" className="h-4" />
+                      <img
+                        src="/images/github.svg"
+                        className="h-4"
+                        alt={`${item.name} github repository`}
+                      />
                       <p className="ml-2">GitHub</p>
                     </a>
                   )}
@@ -45,7 +49,11 @@ export const Projects: FC<ProjectsProps> = ({ data }) => {
                       rel="noopener noreferrer"
                       className="transition flex bg-white-700 px-2 py-1 rounded-md items-center ml-4 hover:bg-black hover:bg-opacity-20"
                     >
-                      <img src="/images/rocket.svg" className="h-4" />
+                      <img
+                        src="/images/rocket.svg"
+                        className="h-4"
+                        alt={`${item.name} deployed app`}
+                      />
                       <p className="ml-2">Deployed App</p>
                     </a>
                   )}

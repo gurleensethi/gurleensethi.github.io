@@ -19,6 +19,7 @@ export const ContactForm: FC<ContactFormProps> = () => {
           <img
             src="/images/email.svg"
             className={`h-5 mr-4 inline-block ${styles["animate-email"]}`}
+            alt="email"
           />
           <div className="flex-1">
             <span className="text-xl">Send an Email</span>
@@ -31,6 +32,7 @@ export const ContactForm: FC<ContactFormProps> = () => {
           <img
             src="/images/phone.svg"
             className={`h-5 mr-4 ${styles["animate-phone"]}`}
+            alt="phone"
           />
           <div className="flex-1">
             <span className="text-xl">Give me a Call</span>

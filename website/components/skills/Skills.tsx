@@ -20,7 +20,8 @@ export const Skills: FC<SkillsProps> = ({ data }) => {
             >
               <img
                 src={item.icon}
-                className="h-8 md:h-10 mb-4 filter invert "
+                className="h-8 md:h-10 mb-4 filter invert"
+                alt={item.name}
               />
               <div className="text-sm font-light md:text-base">{item.name}</div>
             </div>

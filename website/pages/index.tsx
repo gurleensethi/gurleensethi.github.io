@@ -8,6 +8,7 @@ import { Skills } from "../components/skills/Skills";
 import { UserInfo } from "../components/user-info/UserInfo";
 import { PortfolioData } from "../types";
 import { getPortfolioData } from "../utils/get-portfilio-data";
+import Head from "next/head";
 
 export interface HomeProps {
   portfolioData: PortfolioData;
@@ -18,6 +19,9 @@ export const Home: FC<HomeProps> = ({ portfolioData }) => {
 
   return (
     <div>
+      <Head>
+        <meta name="description" content={user.tagline} />
+      </Head>
       <UserInfo info={user} />
       <Skills data={skills} />
       <Experience data={experience} />
