@@ -16,7 +16,7 @@ export const ContactForm: FC<ContactFormProps> = ({ generalInfo }) => {
       <h1 className="section-heading">Contact Me</h1>
       <div className="mb-12 md:flex justify-center">
         <a
-          href={`mailti:${generalInfo.email}`}
+          href={`mailto:${generalInfo.email}`}
           className={`${styles["email-container"]} transition flex items-center rounded-md px-4 py-3 mb-4 md:mr-8 ring-1 ring-white hover:bg-gray-900`}
         >
           <img
