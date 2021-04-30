@@ -9,7 +9,6 @@ function MyApp({ Component, pageProps }: AppProps) {
         <title>Gurleen Sethi</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
-
       <div className="max-w-screen-lg m-auto pb-8">
         <Component {...pageProps} />
       </div>
