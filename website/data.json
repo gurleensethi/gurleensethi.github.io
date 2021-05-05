@@ -120,6 +120,12 @@
         "description": "An android client for Sopho's cyberoam firewal that provides various add-on features.",
         "link": "https://play.google.com/store/apps/details?id=com.thetechnocafe.gurleensethi.captiveportalx",
         "coverImage": "/images/engineering-blogs.png"
+      },
+      {
+        "name": "Sailor",
+        "description": "Open source routing library for Flutter to abstract away complexity of navigation.",
+        "link": "https://pub.dev/packages/sailor",
+        "github": "https://github.com/gurleensethi/sailor"
       }
     ]
   },
