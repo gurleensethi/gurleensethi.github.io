@@ -49,7 +49,6 @@ export interface ProjectsData {
 export interface ProjectData {
   name: string;
   description: string;
-  coverImage: string;
   github?: string;
   link?: string;
 }

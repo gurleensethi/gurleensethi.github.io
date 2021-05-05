@@ -112,14 +112,12 @@
         "name": "Engineering Blogs",
         "description": "A full-stack web application that aggregates blog posts from different technology blogs.",
         "github": "https://github.com/gurleensethi/engineering-blogs",
-        "link": "https://engineeringblogs.herokuapp.com",
-        "coverImage": "/images/engineering-blogs.png"
+        "link": "https://engineeringblogs.herokuapp.com"
       },
       {
         "name": "Captive Portal X",
         "description": "An android client for Sopho's cyberoam firewal that provides various add-on features.",
-        "link": "https://play.google.com/store/apps/details?id=com.thetechnocafe.gurleensethi.captiveportalx",
-        "coverImage": "/images/engineering-blogs.png"
+        "link": "https://play.google.com/store/apps/details?id=com.thetechnocafe.gurleensethi.captiveportalx"
       },
       {
         "name": "Sailor",
