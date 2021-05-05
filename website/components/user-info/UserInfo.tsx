@@ -1,4 +1,5 @@
-import { FC, useEffect, useState } from "react";
+import { FC } from "react";
+import { useStaticHeight } from "../../hooks/useStaticHeight";
 import { GeneralInfo } from "../../types";
 import styles from "./UserInfo.module.css";
 
@@ -7,11 +8,7 @@ export interface UserInfoProps {
 }
 
 export const UserInfo: FC<UserInfoProps> = ({ info }) => {
-  const [height, setHeignt] = useState("100vh");
-
-  useEffect(() => {
-    setHeignt(`${window.innerHeight}px`);
-  }, []);
+  const height = useStaticHeight();
 
   const onContactMeClick = () => {
     document
