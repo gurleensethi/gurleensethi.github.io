@@ -154,6 +154,10 @@
         "icon": "/images/java.svg"
       },
       {
+        "name": "HTML/CSS",
+        "icon": "/images/html.svg"
+      },
+      {
         "name": "Docker",
         "icon": "/images/docker.svg"
       },
