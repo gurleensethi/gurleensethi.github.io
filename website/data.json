@@ -2,7 +2,7 @@
   "user": {
     "name": "Gurleen Sethi",
     "email": "contactgurleensethi@gmail.com",
-    "title": "Software Developer 2 @ SSENSE",
+    "title": "Software Developer",
     "phone": "+1 (514) 560-3230",
     "tagline": "Masters graduate in Software Engineering with over 2 years of experience developing web and mobile applications.",
     "social": [
@@ -21,23 +21,6 @@
   "experience": {
     "summary": "I have experience working in different types of environments from face-paced startups to mid-sized companies. I have worked with a diverse set of technologies to both develop and deploy web/mobile software.",
     "jobs": [
-      {
-        "title": "Software Developer 2",
-        "companyName": "SSENSE",
-        "startDate": "Jul 2021",
-        "shortDescription": "Web Development (Backend) in a microservice environment.",
-        "endDate": "Current",
-        "skills": [
-          {
-            "name": "NodeJS",
-            "icon": "/images/nodejs.svg"
-          },
-          {
-            "name": "Docker",
-            "icon": "/images/docker.svg"
-          }
-        ]
-      },
       {
         "title": "Software Developer",
         "companyName": "Alliance Avantages Sociaux",
