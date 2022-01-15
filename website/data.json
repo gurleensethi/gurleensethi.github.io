@@ -22,6 +22,31 @@
     "summary": "I have experience working in different types of environments from face-paced startups to mid-sized companies. I have worked with a diverse set of technologies to both develop and deploy web/mobile software.",
     "jobs": [
       {
+        "title": "Software Developer 2",
+        "companyName": "SSENSE",
+        "shortDescription": "Web development and deployment utilizing technologies such as JavaScript, React, Node.js, AWS Lambda, Docker, Kubernetes.",
+        "startDate": "Jul 2021",
+        "endDate": "Present",
+        "skills": [
+          {
+            "name": "React",
+            "icon": "/images/react.svg"
+          },
+          {
+            "name": "NodeJS",
+            "icon": "/images/nodejs.svg"
+          },
+          {
+            "name": "Docker",
+            "icon": "/images/docker.svg"
+          },
+          {
+            "name": "Kubernetes",
+            "icon": "/images/kubernetes.svg"
+          }
+        ]
+      },
+      {
         "title": "Software Developer",
         "companyName": "Alliance Avantages Sociaux",
         "shortDescription": "Web development and deployment utilizing technologies such as JavaScript, React, Node.js, Docker, Kubernetes.",
