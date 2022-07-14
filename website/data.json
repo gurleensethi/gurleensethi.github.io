@@ -2,9 +2,9 @@
   "user": {
     "name": "Gurleen Sethi",
     "email": "contactgurleensethi@gmail.com",
-    "title": "Software Developer",
+    "title": "Software Developer @ Docker",
     "phone": "+1 (514) 560-3230",
-    "tagline": "Masters graduate in Software Engineering with over 2 years of experience developing web and mobile applications.",
+    "tagline": "Masters graduate in Software Engineering with over 3 years of experience developing distributed web applications.",
     "social": [
       {
         "name": "GitHub",
@@ -22,11 +22,36 @@
     "summary": "I have experience working in different types of environments from face-paced startups to mid-sized companies. I have worked with a diverse set of technologies to both develop and deploy web/mobile software.",
     "jobs": [
       {
+        "title": "Software Developer 3",
+        "companyName": "Docker",
+        "shortDescription": "Backend web development with Go in a distributed environment maintaing microservices that are the backbone of Docker Hub.",
+        "startDate": "Mar 2022",
+        "endDate": "Present",
+        "skills": [
+          {
+            "name": "Go",
+            "icon": "/images/go.svg"
+          },
+          {
+            "name": "React",
+            "icon": "/images/react.svg"
+          },
+          {
+            "name": "Docker",
+            "icon": "/images/docker.svg"
+          },
+          {
+            "name": "Kubernetes",
+            "icon": "/images/kubernetes.svg"
+          }
+        ]
+      },
+      {
         "title": "Software Developer 2",
         "companyName": "SSENSE",
         "shortDescription": "Web development and deployment utilizing technologies such as JavaScript, React, Node.js, AWS Lambda, Docker, Kubernetes.",
         "startDate": "Jul 2021",
-        "endDate": "Present",
+        "endDate": "Feb 2022",
         "skills": [
           {
             "name": "React",
@@ -134,6 +159,11 @@
     "summary": "I have a Bacehlor's in Computer Science and a Master's in Software Engineering. During the course of my academics I have built many projects and done a handful of internships.",
     "projects": [
       {
+        "name": "TheDeveloperCafe",
+        "description": "Custom made CMS I use to write and publish technical articles.",
+        "link": "https://thedevelopercafe.com"
+      },
+      {
         "name": "Engineering Blogs",
         "description": "A full-stack web application that aggregates blog posts from different technology blogs.",
         "github": "https://github.com/gurleensethi/engineering-blogs",
@@ -155,6 +185,18 @@
   "skills": {
     "items": [
       {
+        "name": "Go",
+        "icon": "/images/go.svg"
+      },
+      {
+        "name": "Docker",
+        "icon": "/images/docker.svg"
+      },
+      {
+        "name": "Kubernetes",
+        "icon": "/images/kubernetes.svg"
+      },
+      {
         "name": "JavaScript",
         "icon": "/images/javascript.svg"
       },
@@ -175,20 +217,8 @@
         "icon": "/images/database.svg"
       },
       {
-        "name": "Java",
-        "icon": "/images/java.svg"
-      },
-      {
         "name": "HTML/CSS",
         "icon": "/images/html.svg"
-      },
-      {
-        "name": "Docker",
-        "icon": "/images/docker.svg"
-      },
-      {
-        "name": "Kubernetes",
-        "icon": "/images/kubernetes.svg"
       }
     ]
   }
