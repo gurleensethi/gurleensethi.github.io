@@ -27,12 +27,8 @@ function Topbar() {
     <div className="flex p-8 items-center justify-between">
       <div className="text-3xl">Gurleen Sethi</div>
 
-      <div>
-        <a href="sms:+15145603230">
-          <div className="px-6 py-2 rounded-md bg-primaryDark text-primaryLight">
-            Get In Touch <span className="ml-2">💬</span>
-          </div>
-        </a>
+      <div className="hidden md:block">
+        <GetInTouchSection />
       </div>
     </div>
   );
@@ -41,23 +37,39 @@ function Topbar() {
 function HeaderSection() {
   return (
     <div className="flex flex-col lg:flex-row items-center min-h-[60vh] justify-center mt-8">
-      <div className="p-8 lg:p-0 lg:w-2/3 mx-auto">
-        <div className="lg:w-[80%] mx-auto">
+      <div className="p-8 mx-auto">
+        <div className="mx-auto">
           <div className="text-4xl lg:text-5xl leading-snug lg:leading-normal font-medium">
             Empowering Businesses <br /> with Software Solutions
           </div>
 
-          <div className="text-lg lg:text-xl mt-4 text-secondaryDark lg:leading-normal">
+          <div className="max-w-[70%] text-lg lg:text-xl mt-4 text-secondaryDark lg:leading-normal">
             Enterprise-Level expertise for Websites, Apps, and Backends to fuel
             your growing business.
           </div>
         </div>
       </div>
 
+      <div className="md:hidden mt-8">
+        <GetInTouchSection />
+      </div>
+
       <img
         src="/images/me.png"
         className="select-none max-w-[400px] lg:max-w-[500px] mx-auto mt-20 lg:mt-0 grayscale-[1] contrast-[1] brightness-[1.4]"
       />
+    </div>
+  );
+}
+
+function GetInTouchSection() {
+  return (
+    <div className="">
+      <a href="sms:+15145603230">
+        <div className="px-6 py-2 rounded-md bg-primaryDark text-primaryLight">
+          Get In Touch <span className="ml-2">💬</span>
+        </div>
+      </a>
     </div>
   );
 }
