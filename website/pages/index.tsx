@@ -1,49 +1,88 @@
-import { GetStaticProps } from "next";
-import React, { FC } from "react";
-import { ContactForm } from "../components/contact-form/ContactForm";
-import { Education } from "../components/education/Education";
-import { Experience } from "../components/experience/Experience";
-import { Projects } from "../components/projects/Projects";
-import { Skills } from "../components/skills/Skills";
-import { UserInfo } from "../components/user-info/UserInfo";
-import { PortfolioData } from "../types";
-import { getPortfolioData } from "../utils/get-portfilio-data";
 import Head from "next/head";
+import { FC } from "react";
 
-export interface HomeProps {
-  portfolioData: PortfolioData;
-}
-
-export const Home: FC<HomeProps> = ({ portfolioData }) => {
-  const { user, projects, experience, education, skills } = portfolioData;
-
+export const Home: FC = () => {
   return (
-    <div>
+    <div className="min-h-[100vh]">
       <Head>
-        <meta name="description" content={user.tagline} />
+        <meta name="description" content="" />
       </Head>
-      <UserInfo info={user} />
-      <Skills data={skills} />
-      <Experience data={experience} />
-      <Education data={education} />
-      <Projects data={projects} />
-      <ContactForm generalInfo={user} />
-      <p className="w-full p-16 text-center my-8 text-xl opacity-70">
-        I am not a designer, but I love clean designs{" "}
-        <span className="text-base animate-pulse inline-block">🤍</span>
-      </p>
+
+      <div className="bg-primaryLight fixed right-0 top-0 bottom-0 left-0 z-[-2]"></div>
+      <div className="bg-secondaryLight fixed right-0 top-0 bottom-0 left-[20%] -rotate-45 -translate-y-[15%] origin-top-right z-[-1]"></div>
+
+      <div className="max-w-screen-xl mx-auto">
+        <Topbar />
+        <HeaderSection />
+        <ContentSection />
+      </div>
     </div>
   );
 };
 
 export default Home;
 
-export const getStaticProps: GetStaticProps<HomeProps> = async () => {
-  const portfolioData = getPortfolioData();
+function Topbar() {
+  return (
+    <div className="flex p-8 items-center justify-between">
+      <div className="text-3xl">Gurleen Sethi</div>
 
-  return {
-    props: {
-      portfolioData,
-    },
-  };
-};
+      <div>
+        <a href="sms:+15145603230">
+          <div className="px-6 py-2 rounded-md bg-primaryDark text-primaryLight">
+            Get In Touch <span className="ml-2">💬</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  );
+}
+
+function HeaderSection() {
+  return (
+    <div className="flex flex-col lg:flex-row items-center min-h-[60vh] justify-center mt-8">
+      <div className="p-8 lg:p-0 lg:w-2/3 mx-auto">
+        <div className="lg:w-[80%] mx-auto">
+          <div className="text-4xl lg:text-5xl leading-snug lg:leading-normal font-medium">
+            Empowering Businesses <br /> with Software Solutions
+          </div>
+
+          <div className="text-lg lg:text-xl mt-4 text-secondaryDark lg:leading-normal">
+            Enterprise-Level expertise for Websites, Apps, and Backends to fuel
+            your growing business.
+          </div>
+        </div>
+      </div>
+
+      <img
+        src="/images/me.png"
+        className="select-none max-w-[400px] lg:max-w-[500px] mx-auto mt-20 lg:mt-0 grayscale-[1] contrast-[1] brightness-[1.4]"
+      />
+    </div>
+  );
+}
+
+function ContentSection() {
+  return (
+    <div className="p-8 lg:p-0 mt-28">
+      <div className="flex flex-col items-center">
+        <div className="text-2xl leading-snug text-center font-medium">
+          6+ years of Software Development Experience
+        </div>
+
+        <div className="text-lg text-secondaryDark mt-4">
+          with renowned organizations
+        </div>
+      </div>
+
+      <div className="flex space-x-8 mt-4 justify-center items-center">
+        <a href="https://ssense.com" target="_blank" rel="noopener noreferrer">
+          <img src="/images/ssense.png" className="h-16" />
+        </a>
+        <a href="https://docker.com" target="_blank" rel="noopener noreferrer">
+          <img src="/images/docker.png" className="h-10" />
+        </a>
+      </div>
+    </div>
+  );
+}
