@@ -15,7 +15,7 @@ jobs:
       - run: |
           cd website
           yarn install --frozen-lockfile
-          yarn build-export
+          yarn build
           cd out
           git init
           git config --global user.email sarusethi@rocketmail.com
