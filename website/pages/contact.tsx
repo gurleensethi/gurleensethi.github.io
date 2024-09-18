@@ -33,15 +33,15 @@ export default function () {
           <div className="h-[1px] w-full bg-gray-200"></div>
         </div>
 
-        <div className="flex space-x-8 justify-center">
+        <div className="flex space-x-8 justify-center w-full">
           <a
-            className="px-6 py-2 rounded-md bg-primaryDark text-primaryLight"
+            className="px-4 py-2 rounded-md bg-primaryDark text-primaryLight w-full text-center"
             href="sms:+1 (514) 560-3230"
           >
             Text
           </a>
           <a
-            className="px-6 py-2 rounded-md bg-primaryDark text-primaryLight"
+            className="px-4 py-2 rounded-md bg-primaryDark text-primaryLight w-full text-center"
             href="tel:+1 (514) 560-3230"
           >
             Call

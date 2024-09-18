@@ -34,6 +34,6 @@ body {
   }
 
   .input {
-    @apply px-4 py-2 border rounded-md;
+    @apply px-4 py-2 border rounded-md border-gray-300;
   }
 }
