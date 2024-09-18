@@ -1,28 +1,23 @@
 import Head from "next/head";
+import Link from "next/link";
 import { FC } from "react";
 
 export const Home: FC = () => {
   return (
-    <div className="min-h-[100vh]">
+    <div className="">
       <Head>
         <meta name="description" content="" />
       </Head>
-
-      <div className="bg-primaryLight fixed right-0 top-0 bottom-0 left-0 z-[-2]"></div>
-      <div className="bg-secondaryLight fixed right-0 top-0 bottom-0 left-[20%] -rotate-45 -translate-y-[15%] origin-top-right z-[-1]"></div>
-
-      <div className="max-w-screen-xl mx-auto">
-        <Topbar />
-        <HeaderSection />
-        <ContentSection />
-      </div>
+      <Topbar />
+      <HeaderSection />
+      <ContentSection />
     </div>
   );
 };
 
 export default Home;
 
-function Topbar() {
+export function Topbar() {
   return (
     <div className="flex p-8 items-center justify-between">
       <div className="text-3xl">Gurleen Sethi</div>
@@ -65,11 +60,11 @@ function HeaderSection() {
 function GetInTouchSection() {
   return (
     <div className="">
-      <a href="sms:+15145603230">
+      <Link href="/contact">
         <div className="px-6 py-2 rounded-md bg-primaryDark text-primaryLight">
-          Get In Touch <span className="ml-2">💬</span>
+          Get In Touch
         </div>
-      </a>
+      </Link>
     </div>
   );
 }

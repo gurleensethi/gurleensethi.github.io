@@ -32,4 +32,8 @@ body {
   .section-heading {
     @apply text-4xl mb-12;
   }
+
+  .input {
+    @apply px-4 py-2 border rounded-md;
+  }
 }
